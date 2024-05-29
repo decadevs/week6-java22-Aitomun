@@ -1,16 +1,12 @@
 package services.impl;
 
-import enums.Role;
 import models.BookRequest;
 import models.Person;
 import services.LibraryService;
 
-import java.awt.print.Book;
 import java.util.*;
-import java.util.stream.Collectors;
 
 import static models.LibraryBook.UsersOnQueue;
-import static models.LibraryBook.bookshelf;
 
 public class LibraryServiceImpl implements LibraryService {
 
